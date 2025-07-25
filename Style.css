@@ -240,7 +240,7 @@ h4{
     color: white;
 }
 .deal-overlay{
-     transform: translate(10px ,-110px);
+     transform: translate(10px ,-150px);
 
 }
 
@@ -250,7 +250,7 @@ h4{
 }
 
 .deal-overlay1{
-     transform: translate(10px ,-250px);
+     transform: translate(10px ,-230px);
 
 }
 
@@ -403,7 +403,7 @@ h4{
     }
 
     .Plant_lover {
-        flex-direction: column; /* Stack the elements vertically */
+        flex-direction: column; 
         margin: 900px 10px 10px 10px;
         align-items: center;
         width: 100%;
