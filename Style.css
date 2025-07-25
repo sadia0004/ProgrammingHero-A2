@@ -197,7 +197,7 @@ h3 {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    border:2px solid black,
+   
 }
 
 
@@ -259,8 +259,83 @@ h4{
     color: white;
 }
 
+/* footer section*/
+
+.footer{
+   
+    display:grid;
+    grid-template-columns: repeat(1,1fr);
+   
+}
+.footer_img{
+    background-image: url(/images/news-letter-bg.png);
+     height: 535px;
+     width: 1440px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+
+}
+
+.f-head{
+    font-size: 3rem;
+    color: white;
+}
 
 
+
+.email-subscribe-form {
+    display: flex;
+    width: 100%; 
+    padding: 0 20px; 
+    justify-content: center; 
+}
+
+.email-subscribe-form input[type="email"] {
+    padding: 12px 20px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.9); 
+    color: #333;
+    font-size: 1rem;
+    outline: none; 
+    width: 664px; 
+    height: 50px;
+}
+
+.email-subscribe-form input[type="email"]::placeholder {
+    color: #888;
+}
+.button{
+   background-color: rgba(233, 90, 8, 1);
+    font-weight: 500;
+    padding: 0.8rem;
+    width: 180px;
+    height: 50px;
+    border: none;
+    color: rgba(255, 255, 255, 1);
+}
+
+.footer-text{
+    margin: 50px 150px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width:1120px ;
+    height: 300px;
+}
+
+
+.li-part{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+
+.img-part{
+    display: flex;
+    gap: 30px;
+    justify-content:center;
+}
 
 
 @media screen and (max-width:576px) {
