@@ -1,0 +1,61 @@
+
+/* Shared design*/
+.text-color{
+    color: rgba(137, 135, 161, 1);
+   
+}
+.body_text_color{
+   color: rgba(0, 0, 0, 0.5);;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 150px 120px 150px;
+    
+}
+
+.nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.nav ul{
+    list-style: none;
+    
+
+}
+
+.nav ul a{
+    text-decoration: none;
+     font-size: 1.2rem;
+    
+}
+
+.cart-button{
+    display: flex; 
+    gap: 0.15rem;  
+}
+
+.home{
+    font-weight: 600;
+    color:rgba(37, 36, 50, 1) ;
+}
+
+#cart{
+    color:rgba(0, 0, 0, 1);
+}
+
+
+@media screen and (max-width:576px) {
+
+    
+    .header{
+        margin: 0px auto;
+    }
+    .nav ul li:not(:last-child){
+        display: none;
+     }
+    
+}
+
