@@ -190,6 +190,75 @@ h3 {
 
 
 
+/*---deals_section--*/
+.deals_section{
+    margin: 100px 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border:2px solid black,
+}
+
+
+h4{
+    text-align: center;
+}
+
+.deals-img {
+    display: grid;
+    grid-template-columns: 1fr 2fr; 
+    gap: 15px;
+}
+
+.sm_pic img {
+    width: 100%;
+    height: auto; 
+    border-radius: 5px;
+    margin-top: 0px;
+
+    
+}
+
+.lg_pic img {
+    width: 100%;
+    height: auto; 
+    border-radius: 20px;
+    margin-top:10px;
+    
+}
+
+.discount , .plant-name{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+   
+}
+.discount1 , .plant-name1{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+}
+.deal-overlay{
+     transform: translate(10px ,-110px);
+
+}
+
+.deal-overlay a{
+    font-size: 1.5rem;
+    color: white;
+}
+
+.deal-overlay1{
+     transform: translate(10px ,-250px);
+
+}
+
+.deal-overlay1 a{
+    font-size: 2.5rem;
+    color: white;
+}
+
 
 
 
@@ -212,6 +281,7 @@ h3 {
     .bannar_pic img {
         height: 100%;
         width: 100%;
+        
 
     }
 
@@ -259,7 +329,7 @@ h3 {
 
     .Plant_lover {
         flex-direction: column; /* Stack the elements vertically */
-        margin: 900px auto;
+        margin: 900px 10px 10px 10px;
         align-items: center;
         width: 100%;
         height: auto;
@@ -286,8 +356,24 @@ h3 {
         display: none; 
     }
 
-    .badge-div {
-        display: none; /* Hide the badge container on small screens */
+   .deals_section{
+    width: 100%;
+    height: auto;
+    margin: 0px auto;
+   }
+    .deals-img {
+        grid-template-columns: 1fr; 
+    }
+
+    .sm_pic img {
+        width: 100%; 
+        height: auto;
+    }
+
+    .lg_pic img {
+        width: 100%; 
+        height: auto;
+        margin-top: 10px;
     }
 
 }
