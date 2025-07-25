@@ -1,17 +1,45 @@
 
 /* Shared design*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
 .text-color{
     color: rgba(137, 135, 161, 1);
    
+}
+
+
+.noto-serif-font {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.red_text{
+    color:rgba(233, 90, 8, 1);
 }
 .body_text_color{
    color: rgba(0, 0, 0, 0.5);;
 }
 
+.btn{
+    background-color: rgba(233, 90, 8, 1);
+    font-weight: 500;
+    padding: 0.8rem;
+    width: 100%;
+    border: none;
+    color:rgba(255, 255, 255, 1) ;
+
+}
+
+/*---header---*/
 .header{
     display: flex;
     justify-content: space-between;
-    margin: 30px 150px 120px 150px;
+    margin: 30px 140px 120px 140px;
     
 }
 
@@ -46,6 +74,66 @@
     color:rgba(0, 0, 0, 1);
 }
 
+/*---Banner section---*/
+h3{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.banner{
+    display: flex;
+    margin:100px 140px;
+}
+
+.bannar_pic img{
+    width: 570px ;
+    height: 355px ;
+}
+
+/*Cart section*/
+
+h4{
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 0%;
+}
+
+.cart_section{
+     margin:0 auto;
+     display:flex;
+     flex-direction: column;
+     text-align: center;
+     width: 1140px;
+     height:1187px;
+
+}
+.Cart_headline{
+    
+    align-items: center;
+
+}
+.card{
+      display: grid;
+      grid-template-columns: repeat(4,1fr);
+      gap:10px;
+
+}
+
+.cart_item{
+    margin-top: 40px;
+}
+
+.cart_item img{
+    width:270px;
+    height: 322px;
+}
+
+.card-text{
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+
 
 @media screen and (max-width:576px) {
 
@@ -56,6 +144,25 @@
     .nav ul li:not(:last-child){
         display: none;
      }
+
+     .banner{
+        flex-direction:column-reverse;
+        margin: 0 auto;
+        gap: 20px;
+     }
+
+     .bannar_pic img{
+        width: 100% ;
+        height:100%;
+     }
+
+     .banner_text{
+        width: 100% ;
+        height:100%;
+
+        
+     }
+
     
 }
 
